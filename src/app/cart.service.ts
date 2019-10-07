@@ -8,7 +8,7 @@ export class CartService {
   items = [];
 
   constructor(
-    private: http: HttpClient
+    private http: HttpClient
   ) { }
 
   addToCart(product) {
